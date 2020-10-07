@@ -1,12 +1,12 @@
-## Your Name
+## David Qian
 
 Welcome to my website!
 
-### Added Feature #1
+### Education Page
 
-Description
+Shows high school and college and their respective dates. Includes a prop and 3 state variables
 
-Screenshots
+
 
 ### Added Feature #2
 
