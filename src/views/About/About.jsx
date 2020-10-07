@@ -1,17 +1,16 @@
 import React from "react";
 import "./About.css";
-import CutePic from "../../assets/bighappy.png";
+import CutePic from "../../assets/image0-6.jpg";
 
 export default function AboutScreen() {
   return (
     <div className="screen-background">
       <div className="intro-background">
         <div className="intro-item">
-          <div>here you'll put a picture of yourself</div>
+          <img src={CutePic} className="intro-picture" />
         </div>
         <div className="intro-item">
-          Wow wow wow Your Name is a pretty cool person! check out all these
-          details
+          Hi! My name is David Qian. I'm from Boston, MA and I like swimming, coding, and ice cream!
         </div>
       </div>
     </div>

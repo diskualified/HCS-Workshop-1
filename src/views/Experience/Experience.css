@@ -17,8 +17,9 @@
 }
 
 .timeline-item:hover {
-  -webkit-transform: scale(2);
-  transform: scale(2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  border-radius: 10px;
   background-color: cornflowerblue;
 }
 
@@ -26,7 +27,7 @@
   position: absolute;
   width: 24px;
   height: 24px;
-  border-radius: 12px;
+  border-radius: 15px;
   background: crimson;
 }
 
@@ -52,6 +53,7 @@ p {
   justify-content: center;
   align-items: center;
   margin: 32px;
+  color: white;
 }
 
 .highlight-background h1,
